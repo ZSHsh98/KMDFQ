@@ -2,8 +2,8 @@
 
 We provide PyTorch implementation for "Generative Data Free Model Quantization with Knowledge Matching".  
 
-## Paper
-* [Generative Low bitwidth Data Free Quantization](https://arxiv.org/abs/2003.03603) 
+<!-- ## Paper
+* [Generative Low bitwidth Data Free Quantization](https://arxiv.org/abs/2003.03603)  -->
 
 
 <br/>
@@ -90,6 +90,10 @@ To quantize the pretrained ResNet-18 on ImageNet to 6-bit:
   | CIFAR-10 | ResNet-20| 93.89|94.05| 93.94 |93.67 |92.24|
   | CIFAR-100 | ResNet-20| 70.33 | 70.53| 70.35 |69.68 |67.15|
   | ImageNet | ResNet-18 | 71.58 |70.73 |70.61 |69.93| 64.39|
+  | ImageNet | BN-VGG16 |74.38|72.33 |72.29 |71.89 |68.79|
+  | ImageNet |Inception v3|77.63|76.45 |76.43 |75.54 |71.22|
+  | ImageNet |MobileNet v2|73.08|72.58 |72.21| 71.03 |63.48|
+  | ImageNet |ShuffleNet|65.16|61.90 |60.95 |56.73| 28.26|
 
 Note that we use the pretrained models from [pytorchcv](https://www.cnpython.com/pypi/pytorchcv).
 
