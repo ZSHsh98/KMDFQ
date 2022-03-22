@@ -1,6 +1,6 @@
 #  ------------ General options ----------------------------------------
 save_path = "./save_ImageNet/"
-dataPath = "/home/dataset/imagenet/"
+dataPath = "/mnt/cephfs/mixed/dataset/imagenet/"
 dataset = "imagenet" # options: imagenet | cifar100
 nGPU = 1  # number of GPUs to use by default
 GPU = 0  # default gpu to use, options: range(nGPU)

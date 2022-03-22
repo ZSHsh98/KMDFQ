@@ -67,3 +67,5 @@ python main_D.py --conf_path ./imagenet_resnet50.hocon --id 2 --CE_WEIGHT 1 --BN
 
 ##########      20220322 TEST       #############
 python main_D.py --conf_path ./cifar10_resnet20.hocon --id 1000 --CE_WEIGHT 1 --BNS_WEIGHT 1  --FEATURE_WEIGHT 1  --warmup_epochs 20 --visible_devices 3 --seed 100
+
+python main_D.py --conf_path ./imagenet_inceptionv3.hocon --id 1000 --CE_WEIGHT 1 --BNS_WEIGHT 1  --FEATURE_WEIGHT 1  --warmup_epochs 50 --visible_devices 3 --seed 100 --selenet  inceptionv3

@@ -443,6 +443,7 @@ class ExperimentDesign:
 		start_time = time.time()
 
 		test_error, test_loss, test5_error = self.trainer.test_teacher(0)
+		self.logger.info("Teacher network accuracy %.4f%%"	% (100.00 - test_error)	)
 		writer = SummaryWriter(self.settings.save_path)
 
 		

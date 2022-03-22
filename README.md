@@ -22,7 +22,8 @@ We provide PyTorch implementation for "Generative Data Free Model Quantization w
 
 1. Clone this repo:
 
-        xxx
+        git clone https://github.com/zhangshuhai-shuhai/KMDFQ.git
+        cd KMDFQ
 
 2. Install pytorch and other dependencies.
 
