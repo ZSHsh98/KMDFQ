@@ -94,6 +94,7 @@ To quantize the pretrained ResNet-18 on ImageNet to 6-bit:
   | ImageNet |Inception v3|77.63|76.45 |76.43 |75.54 |71.22|
   | ImageNet |MobileNet v2|73.08|72.58 |72.21| 71.03 |63.48|
   | ImageNet |ShuffleNet|65.16|61.90 |60.95 |56.73| 28.26|
+  | ImageNet | ResNet-50 | 77.76|77.502|77.212|75.668|68.84
 
 Note that we use the pretrained models from [pytorchcv](https://www.cnpython.com/pypi/pytorchcv).
 
