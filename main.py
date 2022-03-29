@@ -15,7 +15,7 @@ from torch.nn import DataParallel
 from options import Option
 import numpy as np
 from dataloader import DataLoader
-from trainer_D import Trainer
+from trainer import Trainer
 import random
 import utils as utils
 from quantization_utils.quant_modules import *
