@@ -42,7 +42,7 @@ We provide PyTorch implementation for "Generative Data Free Model Quantization w
 
 To quantize the pretrained ResNet-20 on CIFAR-10 to 4-bit:
 
-    python main_D.py 
+    python main.py 
     --conf_path ./cifar10_resnet20.hocon \
     --id 1 \
     --CE_WEIGHT 1 \
@@ -55,7 +55,7 @@ To quantize the pretrained ResNet-20 on CIFAR-10 to 4-bit:
 
 To quantize the pretrained ResNet-20 on CIFAR-100 to 5-bit:
 
-    python main_D.py 
+    python main.py 
     --conf_path ./cifar100_resnet20.hocon \
     --id 1 \
     --CE_WEIGHT 1 \
@@ -68,7 +68,7 @@ To quantize the pretrained ResNet-20 on CIFAR-100 to 5-bit:
 
 To quantize the pretrained ResNet-18 on ImageNet to 6-bit:
 
-    python main_D.py 
+    python main.py 
     --conf_path ./imagenet_resnet18.hocon \
     --id 1 \
     --CE_WEIGHT 1 \
