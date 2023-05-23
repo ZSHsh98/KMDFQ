@@ -1,9 +1,6 @@
-# Generative Data Free Model Quantization with Knowledge Matching
+# Generative Data Free Model Quantization with Knowledge Matching for Classification
 
-We provide PyTorch implementation for "Generative Data Free Model Quantization with Knowledge Matching".  
-
-<!-- ## Paper
-* [Generative Low bitwidth Data Free Quantization](https://arxiv.org/abs/2003.03603)  -->
+We provide PyTorch implementation for "Generative Data Free Model Quantization with Knowledge Matching for Classification".  
 
 
 <br/>
@@ -98,19 +95,14 @@ To quantize the pretrained ResNet-18 on ImageNet to 6-bit:
 
 Note that we use the pretrained models from [pytorchcv](https://www.cnpython.com/pypi/pytorchcv).
 
-<br/>
-
-<!-- ## Citation
-If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/2003.03603):
-
-    @InProceedings{xu2020generative,
-    title = {Generative Low-bitwidth Data Free Quantization},
-    author = {Shoukai, Xu and Haokun, Li and Bohan, Zhuang and Jing, Liu and Jiezhang, Cao and Chuangrun, Liang and Mingkui, Tan},
-    booktitle = {The European Conference on Computer Vision},
-    year = {2020}
-    }
-
-<br/>
-
-## Acknowledgments
-This work was partially supported by the Key-Area Research and Development Program of Guangdong Province 2018B010107001, Program for Guangdong Introducing Innovative and Entrepreneurial Teams 2017ZT07X183, Fundamental Research Funds for the Central Universities D2191240. -->
+## Citation
+If this work is useful for your research, please cite our paper:
+```
+@article{xu2023KMDFQ,
+title = {Generative Data Free Model Quantization with Knowledge Matching for Classification},
+author = {Shoukai Xu, Shuhai Zhang, Jing Liu, Bohan Zhuang, Yaowei Wang , Mingkui Tan},
+journal={IEEE Transactions on Circuits and Systems for Video technology},
+publisher={IEEE},
+year = {2023}
+}
+```
